@@ -1189,7 +1189,7 @@ impl Config {
             docs_minification: true,
             rust_rpath: true,
             rust_strip: false,
-            channel: "dev".to_string(),
+            channel: "nightly".to_string(),
             codegen_tests: true,
             rust_dist_src: true,
             rust_codegen_backends: vec!["llvm".to_owned()],
